@@ -1,17 +1,18 @@
 import React from "react";
+import ListaProjeto from '../Lista_projeto/index'
+import LayoutPerfil from '../Layout_perfil/index'
 
 
-function PageHome(props){
+
+function PageHome(){
 return(
     <div className="PagesHome">
-        <div className="Layout_perfil">
+        <LayoutPerfil/>
+        <ListaProjeto/>
 
-        </div>
-
-        <div className="list_repositories">
-
-        </div>
 
     </div>
 )
 }
+
+export default PageHome;
